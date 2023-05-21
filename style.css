@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: limegreen;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    color: darkslategrey;
+
+}
+.container-fluid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+}
+.tareasList{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+form{
+    display: flex;
+}
+
+input{
+
+    padding: 15px 10px;
+    width: 300px;
+    outline: none;
+
+}
+.btn-add{
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+}
+.empty{
+    color: darkolivegreen;
+}
+
+ul{
+    padding: 0px;
+    
+
+}
+
+li{
+    list-style: none;
+    background-color: rgb(67, 62, 62);
+    border-radius: 10px;
+    margin-top: 15px;
+    display:flex;
+    
+}
+li p{
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.btn-delete{
+    padding: 5px 15px;
+    color: rgba(131, 98, 98, 0.466);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(149, 85, 21);
+    font-size: 1.4rem;
+    outline: none;
+    margin-left: auto;
+    width: 10%;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.btn-delete:hover{
+background-color: lightgreen;
+cursor: pointer;
+
+}
+
+.btn{
+    padding: 10px 45px;
+    color:white;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+
+}
+
+ul#hist{
+    list-style: none;
+    background-color: rgb(67, 62, 62);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 0px;
+    display:flex;
+
+}
+
+#hist p{
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+
+}
+
